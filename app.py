@@ -6,7 +6,7 @@ st.title("暗記アプリ（記述式）")
 # ----------------------
 # データ読み込み
 # ----------------------
-df = pd.read_excel("quiz.xlsx")
+df = pd.read_excel("coffee meister.xlsx")
 df.columns = df.columns.str.strip()  # 列名のスペース対策
 
 # ----------------------
